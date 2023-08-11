@@ -31,5 +31,5 @@ também contém a uml de modelagem do banco.
 
 ## Como Executar
 
-A API poderá ser acessada em [localhost:8080](http://localhost:8080).
+O projeto poderá ser acessada em [localhost:8080](http://localhost:8080/webSite).
 
