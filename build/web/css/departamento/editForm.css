@@ -1,0 +1,39 @@
+* {
+    margin-top: 10px;
+}
+
+.formulario{
+    display: inherit;
+    align-content: center;
+    align-items: center;
+}
+.dpto{
+    display: inline;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 5px 0px;
+    height: 5vh;
+}
+#idDep{
+    width: 50vh;
+    height: 20px;
+}
+input{
+    height: 20px;
+}
+label{
+    font-family: cursive;
+    font-size: 20px;
+}
+.nomeEtelefone{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+@media only screen and (max-width: 360px){
+    #idDep{
+        width: 15vh;
+        height: 20px;
+    }
+}

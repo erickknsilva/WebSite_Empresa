@@ -1,0 +1,180 @@
+@keyframes animacao{
+    from{
+        color: red;
+
+    }
+    to{
+        color: blueviolet;
+    }
+}
+td{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+#ani{
+    animation-name: animacao;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    font-family: cursive, monospace,arial;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+table{
+
+    margin: 7vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+    background-color:  rgba(169,169,169, 0.200);
+    
+
+
+}
+th{
+
+    font-family: cursive,'Courier New', Courier, monospace;
+    padding: 1vh 3vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 22px;
+    text-align: center;
+    background-color: cornsilk;
+    position: sticky;
+    top: 0px;
+}
+
+td{
+    font-family: monospace,'Courier New', Courier;
+    padding: 0vh 3vh;
+    border: 1px solid black;
+    border-radius: 7px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    background-color: cornsilk;
+}
+
+table caption{
+    color: #555;
+    background-color: rgba(169,169,169, 0.200);
+    font-size: 36px;
+    font-family: cursive;
+    border: 1px solid black;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+    margin-bottom: 2px;
+}
+.div-table{
+    overflow: auto;
+    width: 900px;
+    height: 450px;
+    border:solid 1px;
+    margin-top: 35px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px;
+}
+
+@media ( max-width: 900px){
+    th{
+
+        font-family: cursive,'Courier New', Courier, monospace;
+        padding: 1vh 2vh;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 22px;
+        text-align: center;
+        background-color: cornsilk;
+        position: sticky;
+        top: 0px;
+    }
+
+    td{
+        font-family: monospace,'Courier New', Courier;
+        padding: 0vh 2vh;
+        border: 1px solid black;
+        border-radius: 7px;
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+        background-color: cornsilk;
+    }
+
+    table caption{
+        color: #555;
+        background-color: rgba(169,169,169, 0.200);
+        font-size: 30px;
+        font-family: cursive;
+        border: 1px solid black;
+        text-shadow: 1px 1px 1px black;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px;
+        margin-bottom: 2px;
+    }
+    .div-table{
+        overflow: auto;
+        width: 680px;
+        height: 450px;
+        border:solid 1px;
+        margin-top: 35px;
+        border-radius: 3px;
+        box-shadow: 0px 0px 1px;
+    }
+}
+
+@media (max-width: 680px){
+    th{
+
+        font-family: cursive,'Courier New', Courier, monospace;
+        padding: 1vh 1vh;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 18px;
+        text-align: center;
+        background-color: cornsilk;
+        position: sticky;
+        top: 0px;
+    }
+
+    td{
+        font-family: monospace,'Courier New', Courier;
+        padding: 0vh 1vh;
+        border: 1px solid black;
+        border-radius: 7px;
+        font-size: 16px;
+        text-align: center;
+        font-weight: bold;
+        background-color: cornsilk;
+    }
+
+    table caption{
+        color: #555;
+        background-color: rgba(169,169,169, 0.200);
+        font-size: 30px;
+        font-family: cursive;
+        border: 1px solid black;
+        text-shadow: 1px 1px 1px black;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px;
+        margin-bottom: 2px;
+    }
+    .div-table{
+        overflow: auto;
+        width: 480px;
+        height: 450px;
+        border:solid 1px;
+        margin-top: 35px;
+        border-radius: 3px;
+        box-shadow: 0px 0px 1px;
+    }
+
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/departamento/cadastrarDepartamento.css"/>
+    </head>
+
+    <body>
+        <form action="../cadastrarDepartamento" method="POST" class="formulario">
+            <input type="hidden" name="flag" value="CadastrarDepartamento">
+
+            <div class="dpto">
+                <label for="idDep">Indentificação do Departamento</label>
+                <input type="text" name="idDepartamento" maxlength="3" minlength="2"
+                       id="idDep" required>
+            </div>
+            <div class="nomeEtelefone">
+                <label for="nome">Nome Departamento</label>
+                <input type="text" name="nomeDepartamento" maxlength="50" minlength="8" id="nome" required">
+
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefoneDepartamento" id="telefone" minlength="14" maxlength="15" required>
+            </div>
+            <div>
+                <input style="font-size: 18px; height:30px; " type="submit" value="Cadastrar"/>
+            </div>
+        </form>
+
+    </body>
+</html>
